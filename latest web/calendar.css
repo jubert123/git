@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#3aa5be;
+    background: rgb(46,118,136);
+    background: linear-gradient(180deg, rgba(46,118,136,1) 52%, rgba(58,165,190,1) 90%, rgba(17,119,142,1) 100%);
+}
+
+header {
+    background-color: #22acff;
+    color: #fff;
+    padding: 10px 0;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px; 
+}
+.logo img {
+    width: 80px; 
+    height: auto; 
+    margin-right: 10px; 
+    border-radius: 30px;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.logout-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+nav {
+    background-color: #22acff;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px; /* Adjust the margin as per your preference */
+    margin-left: 50px; /* Adjust the margin as per your preference */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 15px;
+    transition: color 0.4s ease; /* Smooth transition effect */
+}
+
+nav a:hover {
+    color: #1c4966; /* Change color on hover */
+    letter-spacing: .2rem;
+    transform: scale(1.1);
+    transition: .1s ease-in-out;
+}
+

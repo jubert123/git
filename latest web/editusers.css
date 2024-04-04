@@ -1,0 +1,145 @@
+* {
+
+    box-sizing: border-box;
+    font-family: Arial, Helvetica;
+}
+
+body {
+    background: linear-gradient(190deg, #df6100 1%, #000000 70%);
+    font-family: Arial, sans-serif;
+    justify-content: center;
+     align-items: center;
+    height:220vh ;
+  }
+
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.frm-add{
+    display: block;
+    position:relative;
+    width: 450px;
+    height: 190vh;
+    background: #000000b1;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ff6422;
+    border-radius: 7px;
+    margin: 20px;
+
+    backdrop-filter: blur(2px);
+    box-shadow: 0 .4rem .8rem #0005;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    color: #ffffffe1;
+    margin: 15px;
+}
+
+.demo-form-row{
+    position: relative;
+    margin: 30px;
+    width: 310px;
+    border-color: #09042f;
+    border: 2px;
+}
+
+.demo-form-row, label{
+    color: #fff;
+    font-size: 1em;
+    transition: .5s;
+    font-weight: bold;
+}
+
+input:focus ~ label,
+input:focus ~ :valid{
+    top: -5px;
+}
+
+.demo-form-field, input{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(165deg, #000000 1%, #eb3903 85%);
+    border-radius: 8px;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #ffffff;
+}
+
+.demo-form-submit{
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 300;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.demo-form-submit:hover{
+    background-color: rgba(255, 102, 0, 0.913);
+    letter-spacing: .2rem;
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.button_link {
+    color: #ffffff;
+    display: inline-block; /* Change from grid to inline-block */
+    text-decoration: none;
+    background: linear-gradient(195deg, #000000 10%, #ef3d07 55%);
+    border-radius: 5px;
+    padding: 5px;
+    /* Remove padding-left and padding-right */
+    /* Add margin-left and margin-right with auto */
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.button_link:hover {
+    background-color: rgba(255, 89, 0, 0.913);
+    letter-spacing: .2rem;
+    transform: scale(1.2);
+    transition: .2s ease-in-out;
+}
+
+
+  
+  .demo-form-row select {
+    /* Styles for the select element */
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .demo-form-row option {
+    /* Styles for the option elements */
+    color: #d33a1f;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    padding: 5px 10px;
+  }
+  
+  .demo-form-row option:hover {
+    /* Styles for the option elements on hover */
+    background-color: #f95813;
+  }
+  
+  .demo-form-row option:selected {
+    /* Styles for the selected option element */
+    background-color: #ea610c;
+    font-weight: bold;
+  }
+  

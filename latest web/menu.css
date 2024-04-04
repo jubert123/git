@@ -1,0 +1,84 @@
+body {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(170deg, #fc9a08 30%, #1556ed 65%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #22acff;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+}
+
+nav {
+    background-color: #22acff;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 15px;
+    transition: color 0.4s ease; /* Smooth transition effect */
+}
+
+nav a:hover {
+    color: #1c4966;
+    letter-spacing: .2rem;
+    transform: scale(1.1);
+    transition: .1s ease-in-out;
+}
+
+
+
+.product-description {
+    background-color: #1c4966;
+    color: white;
+    padding: 15px;
+    border-radius: 0 0 15px 15px; /* Adjust border radius as needed */
+}
+
+
+.product-item {
+    border: 2px solid white; /* Solid white border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px; /* Padding around each product item */
+    margin-bottom: 20px; /* Margin between each product item */
+}
+
+.col-md-4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Apply rounded corners to the image */
+}
+
+.product-item p {
+    color: white;
+    margin-top: 10px; /* Add some margin between image and description */
+}

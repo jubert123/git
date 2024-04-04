@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+      
+            body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('feedz.jpg'); /* Reference to the local image file */
+    background-color: #145160; /* Fallback color */
+    background-size: cover; /* Cover the entire body */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+}         
+
+       
+
+        header {
+            background-color: #22acff;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo img {
+            width: 80px;
+            height: auto;
+            margin-right: 10px;
+            border-radius: 30px;
+        }
+
+        .container {
+            width: 50%;
+            margin: 50px auto;
+        }
+
+        .logout-btn {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        nav {
+            background-color: #22acff;
+            padding: 10px 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-right: 50px;
+            margin-left: 50px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 0 15px;
+            transition: color 0.4s ease;
+        }
+
+        nav a:hover {
+            color: #1c4966;
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ensure content is centered vertically */
+        }
+
+        .content {
+            max-width: 1000px;
+            padding: px;
+            color: #C5E5EE;
+            text-align: center; /* Center text horizontally */
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="Logo">
+        </div>
+        <nav>
+            <a href ="index.php">Home</a>
+            <a href="#">Calendar</a>
+            <a href="inventory.php">Inventory</a>
+            <a href="#">Menu</a>
+            <a href="aboutus.html">About Us</a>
+        </nav> 
+    </header>
+     
+    <div class="content-container">
+        <div class="content">
+            <p>Founded on January 15, 2010, the Bacolod Street Kids Feeding Training and Livelihood Program Inc. supports street children in Bacolod. They provide food, education, and livelihood training to address insecurity and poverty. Community support is crucial for their mission.</p>
+        </div>
+        <a href="logout.php" class="btn btn-warning logout-btn">Logout</a>
+    </div>
+</body>
+</html>
